@@ -13,12 +13,6 @@ body {
     text-align: center;
 }
 
-.sp_p{
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-}
 
 button{
     color: #FFF;
@@ -27,6 +21,8 @@ button{
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
+
+    border: none;
 }
 
 h1{
@@ -51,12 +47,37 @@ h2{
     line-height: 150%; /* 36px */
     letter-spacing: 1.92px;
 }
-.sp_p{
+.p{
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
+@media screen and (width >= 1440px){
+    h1{
+        font-size: 7.2rem;
+        letter-spacing: 5.76px;
+    }
+    h2{
+        font-size: 4.4rem;
+        letter-spacing: 3.52px;
+    }
+    
+    .p{
+        font-size: 2.2rem;
+        letter-spacing: 1.76px;
+    }
+    button{
+        color: #FFF;
+        font-family: "Zen Maru Gothic";
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+    }
+    
+}
+
 
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
 
@@ -230,6 +251,18 @@ h2{
 
     text-decoration: none;
 }
+@media screen and (width >= 1440px) {
+    .KV{
+        display: inline-flex;
+        padding: 222px 0 222px 0;
+    }
+    .KV h1{
+        font-size: 9.6rem;
+        font-weight: 500;
+        line-height: 250%; /* 240px */
+        letter-spacing: 7.68px;
+    }
+}
 
 .wrapper__ttl{
     background: linear-gradient(90deg, #4F9BE2 0%, #5A1FE2 100%);
@@ -255,6 +288,13 @@ h2{
     -webkit-mask-image: radial-gradient(circle, black 50%, transparent 50%);
     -webkit-mask-size: 7px 4px;
     -webkit-mask-repeat: repeat-x;
+}
+@media screen and (width >= 1440px) {
+    .doted-line::after{
+        mask-size: 14px 8px; 
+        -webkit-mask-size: 14px 8px;
+    }
+
 }
 
 
@@ -292,7 +332,24 @@ h2{
     text-decoration: none;
     color: #FFF;
 }
+@media screen and (width >= 1440px) {
+    .section__explanation{
+        width: 80%;
+        max-width: 1418px;
+        height: 571px;
+        justify-content: space-between;        
+    }
+    .section__explanation p{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .section__explanation button{
+        width: 400px;
+        height: 70px;
+        border-radius: 35px;
+    }
 
+}
 
 .section__worries h2{
     margin: 100px 0 25px 0;
@@ -328,6 +385,20 @@ h2{
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.80);
 }
+@media screen and (width >= 1440px) {
+    .container__worries{
+        height: 846px;
+        background: url(/img/PC_img00.png) lightgray 50% / cover no-repeat;
+    }
+    .container__worries h3{
+        font-size: 4rem;
+    }
+    .container__worries p{
+        width: 920px;
+        padding: 100px 50px;
+    }
+
+}
 
 
 .section__function-introduction{
@@ -343,17 +414,19 @@ h2{
     border-radius: 0px 0px 10px 10px;
     background: #D8FFFF;
 }
+
 .card-container__function-introduction{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
-    align-self: stretch;
 }
 .function-card{
     position: relative;
     display: flex;
     width: auto;
+    max-width: 666px;
+    margin: 0 auto;
     height: 450px;
     padding: 10px 19px;
     flex-direction: column;
@@ -404,6 +477,32 @@ h2{
     border-radius: 10px;
     background:url(/img/SP_img06.png) lightgray 50% / cover no-repeat;
 }
+@media screen and (width >= 1440px){
+    .section__function-introduction > h2{
+        margin: 100px;
+        margin-top: 0px;
+    }
+    .section__function-introduction{
+        display: block;
+        /* width: 1721px; */
+        width: 70%;
+        height: 2144px;
+        margin: 0 auto;
+        padding: 100px 150px;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 70px 86px;
+    }
+    .card-container__function-introduction{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .function-card{
+        width: 40%;
+        max-width: 666px;
+        height: 555px;
+    }
+}
 
 
 .section__function-list h2{
@@ -436,6 +535,14 @@ h2{
     border: 1px solid #464646;
     background: #F5F5F5;
 }
+@media screen and (width >= 1440px) {
+    .function-list{
+        width: 80%;
+        font-size: 2.4rem;
+        letter-spacing: 1.92px;
+    }
+}
+
 
 
 .section__price-plan{
@@ -594,9 +701,80 @@ h2{
     border-radius: 0px 0px 10px 10px;
     background: #FFF;
 }
+@media screen and (width >= 1440px) {
+    .price-plan__content{
+        max-width: 100%;
+    }
+    .price-plan__content > p{
+        font-size: 4rem;
+        letter-spacing: 3.2px;
+    }    
+    .card-container__price-plan{
+        flex-direction: row;
+    }
+    .card__Standard-plan{
+        max-width: 700px;
+    }
+    .card__business-plan{
+        max-width: 700px;
+    }
+    .card__Standard-plan__ttl{
+        height: 150px;
+        max-width: 700px;
+    }
+    .card__Standard-plan__ttl p{
+        font-size: 4rem;
+        letter-spacing: 3.2px;
+    }
+    .card__Standard-plan__price{
+        height: 353px;
+        max-width: 700px;
+    }
+    .card__Standard-plan__price p{
+        font-size: 4rem;
+        letter-spacing: 3.2px;
+    }
+    .card__Standard-plan__price b{
+        font-size: 9.6rem;
+        letter-spacing: 7.68px;
+    }
+    .card__Standard-plan__txt{
+        height: 154px;
+        max-width: 700px;
+        padding: 0px 10px 20px 10px;
+    }
+    
+    .card__business-plan__ttl{
+        height: 150px;
+        max-width: 700px;
+    }
+    
+    .card__business-plan__ttl p{
+        font-size: 4rem;
+        letter-spacing: 3.2px;
+    }
+    .card__business-plan__price{
+        height: 355px;
+        max-width: 700px;
+    }
+    .card__business-plan__price p{
+        font-size: 4rem;
+    }
+    .card__business-plan__price b{
+        font-size: 9.6rem;
+        letter-spacing: 7.68px;
+    }
+    .card__business-plan__txt{
+        height: 154px;
+        max-width: 700px;
+        padding: 0px 10px 20px 10px;
+    }
+}
+
+
+
 
 .table-wrap{
-    width: auto;
     height: 430px;
     overflow-x: scroll;
 }
@@ -604,6 +782,7 @@ h2{
     border-collapse: separate;
     border-spacing: 5px 0;
     width: 875px;
+    margin: 0 auto;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
@@ -643,6 +822,53 @@ h2{
 #last-child{
     border-bottom: 5px solid #FED25B;
 }
+@media screen and (width >= 1440px) {
+    .table-wrap{
+        height: 888px;
+        overflow-x: auto;
+    }
+    
+    .other-companies-list{
+        width: auto;
+        font-size: 2.4rem;
+    }
+
+    .other-companies-list td{
+        width: 350px;
+        height: 110px;
+        padding: 10px;
+    }
+    .other-companies-list__company-name{
+        height: 110px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+    .other-companies-list__heading{
+        color: #30A4A4;
+        display: flex;
+        width: 350px;
+        height: 110px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        border: 2px solid #FFF;
+        background: #DEF5F5;
+    }
+    .ZION-item{
+        border-left: 10px solid #FED25B;
+        border-right: 10px solid #FED25B;
+        border-top: 10px solid #FED25B;
+    }
+    #last-child{
+        border-bottom: 10px solid #FED25B;
+    }
+}
+
 
 
 .section__contract{
@@ -805,25 +1031,21 @@ footer small{
     line-height: 150%; /* 18px */
 }
 
-/* パソコンのマウスでホバーしたときのみ変化するように指定するには...
-https://zenn.dev/kagan/articles/css-hover-style
-@media (hover: hover) {
-    a:hover {
-      background-color: red;
-    }
-  } */
 
-/* ページ内リンク設定方法。おもにid属性を使うようだ。
-<h1>タイトル</h1>
-<h2>目次</h2>
-　<ul>
-　　　<li><a href="#midashi1">はじめに</a></li>
-　　　<li><a href="#midashi2">課題と解決策</a></li>
-　　　<li><a href="#midashi3">まとめ</a></li>
-　</ul>
-<h2 id="midashi1">はじめに</h2>
-　<p>はじめの文章</p>
-<h2 id="midashi2">課題と解決策</h2>
-　<p>課題と解決策の文章</p>
-<h2 id="midashi3">まとめ</h2>
-　<p>まとめの文章</p> */
+@media screen and (width > 768px){
+    .noPc{
+        display: none;
+    }
+}
+
+/* パソコンのマウスでホバー時の変化*/
+@media (hover: hover) {
+    .section__explanation button:hover{
+        background: rgba(70, 70, 70, 0.50);
+        box-shadow: none;
+    }
+    .pc-apply:hover{
+        background:#FED25B;
+        box-shadow: none;
+    }
+}
