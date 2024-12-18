@@ -91,6 +91,7 @@ h2{
     justify-content: space-between;
     align-items: center;
 
+    border-top: 2px solid #A7983B;
     background: #333;
 }
 
@@ -249,7 +250,7 @@ h2{
 
 .pc-menu__h2{
     position: fixed;
-    transition: top 0.s ease;
+    transition: top 0.1s ease;
     z-index: 800;
     top: -100%;
     width: 100%;
