@@ -318,7 +318,7 @@ h2{
     justify-content: flex-end;
     align-items: center;
 
-    background:url(/img/KV_img.png) lightgray 50% / cover no-repeat;
+    background:url(../img/KV_img.png) lightgray 50% / cover no-repeat;
     
 }
 .KV h1{
@@ -445,7 +445,7 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 90px;
-    background:url(/img/SP_img00.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img00.png) lightgray 50% / cover no-repeat;
 }
 .container__worries h3{
     color: #000;
@@ -470,7 +470,7 @@ h2{
 @media screen and (width >= 1440px) {
     .container__worries{
         height: 846px;
-        background: url(/img/PC_img00.png) lightgray 50% / cover no-repeat;
+        background: url(../img/PC_img00.png) lightgray 50% / cover no-repeat;
     }
     .container__worries h3{
         font-size: 4rem;
@@ -537,27 +537,27 @@ h2{
 }
 .card__function-introduction-01{
     border-radius: 10px;
-    background:url(/img/SP_img01.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img01.png) lightgray 50% / cover no-repeat;
 }
 .card__function-introduction-02{
     border-radius: 10px;
-    background:url(/img/SP_img02.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img02.png) lightgray 50% / cover no-repeat;
 }
 .card__function-introduction-03{
     border-radius: 10px;
-    background:url(/img/SP_img03.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img03.png) lightgray 50% / cover no-repeat;
 }
 .card__function-introduction-04{
     border-radius: 10px;
-    background:url(/img/SP_img04.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img04.png) lightgray 50% / cover no-repeat;
 }
 .card__function-introduction-05{
     border-radius: 10px;
-    background:url(/img/SP_img05.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img05.png) lightgray 50% / cover no-repeat;
 }
 .card__function-introduction-06{
     border-radius: 10px;
-    background:url(/img/SP_img06.png) lightgray 50% / cover no-repeat;
+    background:url(../img/SP_img06.png) lightgray 50% / cover no-repeat;
 }
 @media screen and (width >= 1440px){
     .section__function-introduction > h2{
@@ -966,7 +966,7 @@ h2{
     align-items: center;
     gap: 49px;
     flex-shrink: 0;
-    background: url(/img/SP_img07.png) lightgray 50% / cover no-repeat;
+    background: url(../img/SP_img07.png) lightgray 50% / cover no-repeat;
 }
 .container__flow{
     display: flex;
