@@ -55,16 +55,16 @@ h2{
 }
 @media screen and (width >= 1440px){
     h1{
-        font-size: 7.2rem;
+        font-size: 5.2rem;
         letter-spacing: 5.76px;
     }
     h2{
-        font-size: 4.4rem;
+        font-size: 3.4rem;
         letter-spacing: 3.52px;
     }
     
     .p{
-        font-size: 2.2rem;
+        font-size: 1.6rem;
         letter-spacing: 1.76px;
     }
     button{
@@ -293,7 +293,7 @@ h2{
         height: 90px;
     }
     .header__rogo img{
-        width: 92px;
+        width: 62px;
         height: auto;
     }
 
@@ -339,7 +339,7 @@ h2{
         padding: 222px 0 222px 0;
     }
     .KV h1{
-        font-size: 9.6rem;
+        font-size: 6.6rem;
         font-weight: 500;
         line-height: 250%; /* 240px */
         letter-spacing: 7.68px;
@@ -418,11 +418,11 @@ h2{
     .section__explanation{
         width: 80%;
         max-width: 1418px;
-        height: 571px;
-        justify-content: space-between;        
+        height: 400px;
+        justify-content: space-between;    
     }
     .section__explanation p{
-        font-size: 2.4rem;
+        font-size: 1.6rem;
         text-align: center;
     }
     .section__explanation button{
@@ -469,11 +469,11 @@ h2{
 }
 @media screen and (width >= 1440px) {
     .container__worries{
-        height: 846px;
+        height: 700px;
         background: url(../img/PC_img00.png) lightgray 50% / cover no-repeat;
     }
     .container__worries h3{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .container__worries p{
         width: 920px;
@@ -568,7 +568,7 @@ h2{
         display: block;
         /* width: 1721px; */
         width: 70%;
-        height: 2144px;
+        height: 1600px;
         margin: 0 auto;
         padding: 100px 150px;
         align-items: flex-start;
@@ -584,7 +584,7 @@ h2{
         margin: 0;
         width: 40%;
         max-width: 666px;
-        height: 555px;
+        height: 400px;
     }
 }
 
@@ -622,7 +622,7 @@ h2{
 @media screen and (width >= 1440px) {
     .function-list{
         width: 80%;
-        font-size: 2.4rem;
+        font-size: 1.6rem;
         letter-spacing: 1.92px;
     }
 }
@@ -786,11 +786,14 @@ h2{
     background: #FFF;
 }
 @media screen and (width >= 1440px) {
+    .section__price-plan{
+        height: 1000px;
+    }
     .price-plan__content{
         max-width: 100%;
     }
     .price-plan__content > p{
-        font-size: 4rem;
+        font-size: 3.2rem;
         letter-spacing: 3.2px;
     }    
     .card-container__price-plan{
@@ -803,55 +806,55 @@ h2{
         max-width: 700px;
     }
     .card__Standard-plan__ttl{
-        height: 150px;
+        height: 80px;
         max-width: 700px;
     }
     .card__Standard-plan__ttl p{
-        font-size: 4rem;
+        font-size: 3.2rem;
         letter-spacing: 3.2px;
     }
     .card__Standard-plan__price{
-        height: 353px;
+        height: 250px;
         max-width: 700px;
     }
     .card__Standard-plan__price p{
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: 3.2px;
     }
     .card__Standard-plan__price b{
-        font-size: 9.6rem;
+        font-size: 8.6rem;
         letter-spacing: 7.68px;
     }
     .card__Standard-plan__txt{
         height: 154px;
         max-width: 700px;
-        padding: 0px 10px 20px 10px;
+        padding: 0px 30px 20px 30px;
     }
     
     .card__business-plan__ttl{
-        height: 150px;
+        height: 80px;
         max-width: 700px;
     }
     
     .card__business-plan__ttl p{
-        font-size: 4rem;
+        font-size: 3.2rem;
         letter-spacing: 3.2px;
     }
     .card__business-plan__price{
-        height: 355px;
+        height: 250px;
         max-width: 700px;
     }
     .card__business-plan__price p{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .card__business-plan__price b{
-        font-size: 9.6rem;
+        font-size: 8.6rem;
         letter-spacing: 7.68px;
     }
     .card__business-plan__txt{
         height: 154px;
         max-width: 700px;
-        padding: 0px 10px 20px 10px;
+        padding: 0px 30px 20px 30px;
     }
 }
 
@@ -908,22 +911,22 @@ h2{
 }
 @media screen and (width >= 1440px) {
     .table-wrap{
-        height: 888px;
+        height: 650px;
         overflow-x: auto;
     }
     
     .other-companies-list{
         width: auto;
-        font-size: 2.4rem;
+        font-size: 1.6rem;
     }
 
     .other-companies-list td{
-        width: 350px;
-        height: 110px;
+        width: 250px;
+        height: 80px;
         padding: 10px;
     }
     .other-companies-list__company-name{
-        height: 110px;
+        height: 80px;
         padding: 10px;
         justify-content: center;
         align-items: center;
@@ -933,8 +936,8 @@ h2{
     .other-companies-list__heading{
         color: #30A4A4;
         display: flex;
-        width: 350px;
-        height: 110px;
+        width: 250px;
+        height: 80px;
         padding: 10px;
         justify-content: center;
         align-items: center;
@@ -1061,10 +1064,10 @@ h2{
 }
 @media screen and (width >= 1440px) {
     .section__contract{
-        padding-top: 700px;
+        padding-top: 500px;
     }
     .container__flow{
-        padding: 66px 0;
+        padding: 0;
         gap: 66px;
     }
     .flow__txt{
@@ -1235,17 +1238,17 @@ footer small{
         flex-shrink: 0;
     }
     footer img{
-        width: 313px;
-        height: 70px;
+        width: 200px;
+        height: auto;
     }
     footer p{
-        font-size: 2.2rem;
+        font-size: 1.6rem;
     }
     footer a{
-        font-size: 2.2rem;
+        font-size: 1.6rem;
     }
     footer small{
-        font-size: 2.2rem;
+        font-size: 1.6rem;
         font-style: normal;
         font-weight: 400;
         line-height: 150%; /* 18px */
