@@ -49,6 +49,19 @@ pcMenu_h2.addEventListener("mouseleave", (e) => {
 
 
 
+// 要素をふわっと出現させるエフェクト
+const scrollAnimationElm = document.querySelectorAll('.fade-in');
+const scrollAnimationFunc = function () {
+  for (let i = 0; i < scrollAnimationElm.length; i++) {
+    const triggerMargin = 100;
+    if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+      scrollAnimationElm[i].classList.add('on');
+    }
+  }
+}
+window.addEventListener('load', scrollAnimationFunc);
+window.addEventListener('scroll', scrollAnimationFunc);
+
 window.addEventListener('resize', responsive);
 
 responsive();

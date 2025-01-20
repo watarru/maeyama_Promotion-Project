@@ -1086,7 +1086,7 @@ h2{
         position: relative;
     }
     .flow__txt-01 h2{
-        top: 123px;
+        top: 133px;
     }
     .flow__txt-01 img{
         width: 100%;
@@ -1098,7 +1098,8 @@ h2{
     }
     .flow__txt-02 h2{
         width: 330px;
-        top: 100px;
+        top: 136px;
+        font-size: 3rem;
     }
     .flow__txt-02 img{
         width: 100%;
@@ -1109,7 +1110,7 @@ h2{
         position: relative;
     }
     .flow__txt-03 h2{
-        top: 123px;
+        top: 133px;
         right: 10px;
     }
     .flow__txt-03 img{
@@ -1121,7 +1122,7 @@ h2{
         position: relative;
     }
     .flow__txt-04 h2{
-        top: 123px;
+        top: 133px;
         right: 10px;
     }
     .flow__txt-04 img{
@@ -1288,3 +1289,20 @@ footer small{
     }
 
 }
+
+/* fade-in ｜下から上へ出現 */
+body{
+    .timing02 {transition-delay: .2s;}
+    .timing03 {transition-delay: .4s;}
+    .timing04 {transition-delay: .6s;}
+}
+.fade-in {
+    transition: 0.8s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  .fade-in.on {
+    transform: translateY(0);
+    opacity: 1.0;
+  }
+  
