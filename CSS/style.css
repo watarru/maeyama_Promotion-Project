@@ -827,7 +827,7 @@ h2{
     }
     .card__Standard-plan__txt{
         height: 154px;
-        max-width: 700px;
+        max-width: 660px;
         padding: 0px 30px 20px 30px;
     }
     
@@ -1062,10 +1062,7 @@ h2{
     line-height: 150%; /* 36px */
     background-color: #3096DF;
 }
-@media screen and (width >= 1440px) {
-    .section__contract{
-        padding-top: 500px;
-    }
+@media screen and (width >= 1120px) {
     .container__flow{
         padding: 0;
         gap: 66px;
@@ -1097,9 +1094,7 @@ h2{
         position: relative;
     }
     .flow__txt-02 h2{
-        width: 330px;
-        top: 136px;
-        font-size: 3rem;
+        top: 108px;
     }
     .flow__txt-02 img{
         width: 100%;
@@ -1149,7 +1144,11 @@ h2{
         background-color: #3096DF;
     }
 }
-
+@media screen and (width >= 1440px) {
+    .section__contract{
+        padding-top: 500px;
+    }
+}
 
 
 
