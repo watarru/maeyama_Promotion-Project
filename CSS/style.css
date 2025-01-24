@@ -313,7 +313,8 @@ h2{
 .KV{
     display: inline-flex;
     padding: 234px 0px 137px 0px;
-    width: 100%;
+    width: 99%;
+    border-radius: 10px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -438,7 +439,7 @@ h2{
 }
 .container__worries{
     display: flex;
-    width: 100%;
+    border-radius: 10px;
     height: 666px;
     padding: 6px 0px;
     flex-direction: column;
@@ -493,7 +494,7 @@ h2{
     align-items: center;
     gap: 33px;
     flex-shrink: 0;
-    border-radius: 0px 0px 10px 10px;
+    border-radius:10px;
     background: #D8FFFF;
 }
 
@@ -639,6 +640,7 @@ h2{
     gap: 10px;
     flex-shrink: 0;
     background: #FFF0CC;
+    border-radius: 10px;
 }
 .container__price-plan{
     margin: 0 auto;
@@ -970,11 +972,11 @@ h2{
     gap: 49px;
     flex-shrink: 0;
     background: url(../img/SP_img07.png) lightgray 50% / cover no-repeat;
+    border-radius: 10px;
 }
 .container__flow{
     display: flex;
     height: 647px;
-    /* padding: 41px 47px; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -982,6 +984,7 @@ h2{
     flex-shrink: 0;
     align-self: stretch;
     background: rgba(245, 245, 245, 0.90);
+    border-radius: 10px;
 }
 
 /* ===== */
@@ -1061,6 +1064,7 @@ h2{
     font-weight: 500;
     line-height: 150%; /* 36px */
     background-color: #3096DF;
+    border-radius: 10px;
 }
 @media screen and (width >= 1120px) {
     .container__flow{
@@ -1164,6 +1168,7 @@ h2{
     flex-shrink: 0;
     align-self: stretch;
     background:linear-gradient(102deg, #1A3F90 1.98%, rgba(5, 156, 189, 0.90) 86.11%);
+    border-radius: 10px;
 }
 .pc-apply{
     width: 288px;
